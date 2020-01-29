@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace DojoStarter.Tests
 {
     [TestClass]
-    public class CoreTests
+    public class SampleTests
     {
         [TestMethod]
         public void TestMethod()
