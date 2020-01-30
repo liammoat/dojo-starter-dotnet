@@ -2,7 +2,7 @@
 
 namespace DojoStarter
 {
-    public class Core
+    public class Sample
     {
     }
 }

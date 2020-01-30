@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0C86339-7F9D-4FF6-B444-23551F653511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoStarter", "src\DojoStarter\DojoStarter.csproj", "{A95518AB-E012-4A7E-9CD8-18EFB42D16E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DojoStarter", "src\DojoStarter\DojoStarter.csproj", "{A95518AB-E012-4A7E-9CD8-18EFB42D16E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0D8D364F-1304-4097-8F8C-5BABB64994DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoStarter.Tests", "tests\DojoStarter.Tests\DojoStarter.Tests.csproj", "{1D0A3979-895F-440A-B5B7-CD97D68E880F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DojoStarter.Tests", "tests\DojoStarter.Tests\DojoStarter.Tests.csproj", "{1D0A3979-895F-440A-B5B7-CD97D68E880F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFC2CB92-322D-40F2-9B3A-ACDA60B9FCE4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A95518AB-E012-4A7E-9CD8-18EFB42D16E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +51,14 @@ Global
 		{1D0A3979-895F-440A-B5B7-CD97D68E880F}.Release|x86.ActiveCfg = Release|Any CPU
 		{1D0A3979-895F-440A-B5B7-CD97D68E880F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A95518AB-E012-4A7E-9CD8-18EFB42D16E3} = {A0C86339-7F9D-4FF6-B444-23551F653511}
 		{1D0A3979-895F-440A-B5B7-CD97D68E880F} = {0D8D364F-1304-4097-8F8C-5BABB64994DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90F188BC-EBBD-46DD-AFB1-AEF0F246E7BC}
 	EndGlobalSection
 EndGlobal
